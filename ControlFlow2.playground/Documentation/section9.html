@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+    <body>
+	<p>
+	<B>return</B></p>
+	<p>return passes the control from the current function to the calling function. 
+	If the protocol is established to return a value from the called function, 
+	it can return a value to the calling function or method. 
+	This is discussed in more detail in a future chapter.
+	</p>
+	<p>
+	<B>labeled statement</B></p>
+	<p>The labeled statement addresses the issues with using control flow statements when 
+	multiple loop structures are embedded within each other. 
+	Like if a switch is embedded in a loop, if you wanted to break the flow using &#39;break&#39; statement, 
+	depends on where the line is it may skip the current switch or for loop. 
+	In order to be specific on which block to &#39;break&#39; or &#39;continue&#39;, 
+	we can use labeled statements. As shown in the below example, we label our &#39;while&#39; 
+	statement as &#39;fiveAndTenMultiple&#39;. Now when we make the call to the statement
+	 &#39;break fiveAndTenMultiple&#39;, the compiler clearly knows that it needs to break the
+	  flow for while loop and start executing the next line after the while block.
+	</p>
+    </body>
+</html>
