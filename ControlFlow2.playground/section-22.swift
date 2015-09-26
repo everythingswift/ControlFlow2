@@ -7,9 +7,9 @@ forLoop: for year in years
     switch(year)
     {
     case (let x) where x % 4 == 0:
-        println("Found a 4 multiple \(x)")
+        print("Found a 4 multiple \(x)")
         break forLoop
     default:
-        println("Nothing")
+        print("Nothing")
     }
 }

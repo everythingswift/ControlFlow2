@@ -6,7 +6,7 @@ fiveAndTenMultiple: while (q < 1001)
     switch(q)
     {
     case q where q%5 == 0 && q % 10 == 0:
-        println("q%5 == 0 \(q)")
+        print("q%5 == 0 \(q)")
         foundValue = q
         break fiveAndTenMultiple
     default:
@@ -16,4 +16,4 @@ fiveAndTenMultiple: while (q < 1001)
     
 }
 
-println("First five and ten multiple : \(foundValue)")
+print("First five and ten multiple : \(foundValue)")

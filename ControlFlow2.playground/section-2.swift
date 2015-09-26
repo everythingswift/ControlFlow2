@@ -4,6 +4,6 @@ if(age > 16)
     
 {
     
-    println("Eligible to get learner permit")
+    print("Eligible to get learner permit")
     
 }
